@@ -7,11 +7,11 @@ type TokenType = 'SDT' | 'SKT';
 
 export const Swap: React.FC = () => {
     const TOKEN_ADDRESSES = {
-        SDT: 'YOUR_SDT_CONTRACT',
-        SKT: 'YOUR_SKT_CONTRACT',
+        SDT: '0xb7AF966701607b4d266eEd679C6Dbb4cBf99896d',
+        SKT: '0x525f6e07fE55dA049cAe29CdD68cCa40204D0d64',
     };
 
-    const TOKENSWAP_CONTRACT_ADDRESS = 'YOUR_TOKEN_SWAP_ADDRESS';
+    const TOKENSWAP_CONTRACT_ADDRESS = '0xaFaa505BA8132a5772CcB976541c91bfC334e5A1';
 
     const contractABI = tokenSwapABI;
 
